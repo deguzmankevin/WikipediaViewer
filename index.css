@@ -1,0 +1,77 @@
+.centered{
+  text-align:center;
+}
+h1 {
+  font-family: Bree Serif;
+  font-size: 50px;
+  color: white;
+}
+body{
+  background-color: #009933
+}
+#GO, #BACK{
+  color: black;
+}
+#RANDOM{
+  font-family: Bree Serif;
+  font-size: 15px;
+  margin-top:5px;
+  margin-right:20px;
+    color: white;
+}
+#MIDDLE{
+  margin-top:100px;
+    
+    animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+#SEARCHBOX{
+  font-family: Bree Serif;
+  font-size: 20px;
+  border-style: solid;
+  border-color: white;
+  background-color: #009933;
+  border-width: 3px;
+  border-radius: 12px;
+  color: white;
+  
+}
+.block{
+  margin:10px 80px 10px 80px;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  text-decoration:none;
+  cursor: default;
+}
+
+.block:hover{
+  border-left: thick solid #248DC4;
+  text-decoration:none;
+  cursor:pointer;
+  
+}
+.text{
+  font-family:Bree Serif;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  pointer-events: none;
+}
+.subtext{
+  font-family:Bree Serif;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 100;
+}
+@keyframes slideup {
+    from {margin-top: 100px;}
+    to {margin-top: 0px;}
+}
+.ARROW{
+  color: white;
+  font-size:25px;
+  cursor: pointer;
+}
